@@ -13,7 +13,7 @@ docker build --build-arg repo=https://github.com/your/project --build-arg token=
 docker run -it github-centos8-runner
 ```
 
-Centos 7 build
+# Centos 7 build
 
 ```
 docker build --build-arg repo=https://github.com/your/project --build-arg token=your_token -t github-centos7-runner -f Dockerfile7 .
