@@ -6,7 +6,7 @@ Please find Dockerfile which creates github centos 7/8 runner, you need to build
 
 # Token
 
-You need to pass auth token into docker in order to build runner
+You need to pass auth token into docker in order to build runner container image
 
 Token can be found at Settings -> Actions -> Runners -> New self-hosted runner of your github project
 
