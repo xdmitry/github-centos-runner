@@ -1,6 +1,6 @@
 # Self-hosted github runner with centos 7/8 
 
-With github actions, you don't have ability to build your app with centos 8. This can be implemented using self-hosted runner
+With github actions, you don't have ability to build your app with centos 7/8. This can be implemented using self-hosted runner
 
 Please find Dockerfile which creates github centos 7/8 runner, you need to build and run it as below
 
