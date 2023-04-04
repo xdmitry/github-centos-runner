@@ -6,14 +6,14 @@ Please find Dockerfile which creates github centos 7/8 runner, you need to build
 
 Token can be found at Settings -> Actions -> Runners -> New self-hosted runner
 
-# Centos 8 build
+# Centos 8 runner
 
 ```
 docker build --build-arg repo=https://github.com/your/project --build-arg token=your_token -t github-centos8-runner .
 docker run -it --rm github-centos8-runner
 ```
 
-# Centos 7 build
+# Centos 7 runner
 
 ```
 docker build --build-arg repo=https://github.com/your/project --build-arg token=your_token -t github-centos7-runner -f Dockerfile7 .
