@@ -4,7 +4,11 @@ With github actions, you don't have ability to build your app with centos 7/8. T
 
 Please find Dockerfile which creates github centos 7/8 runner, you need to build and run it as below
 
-Token can be found at Settings -> Actions -> Runners -> New self-hosted runner
+# Token
+
+You need to pass auth token into docker in order to build runner
+
+Token can be found at Settings -> Actions -> Runners -> New self-hosted runner of your github project
 
 # Centos 8 runner
 
